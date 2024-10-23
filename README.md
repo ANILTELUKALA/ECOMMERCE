@@ -22,6 +22,7 @@ pip install flask
 3.Run the Flask app:
 
 python app.py
+
 Visit **http://127.0.0.1:5000** to access the application.
 
 This is a clean, simple web app with dynamic pages, authentication,

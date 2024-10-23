@@ -4,6 +4,7 @@ How to Run:
 pip install flask
 
 2.Save the above files in the respective directory structure.
+
 /ecommerce_app
 
     /static

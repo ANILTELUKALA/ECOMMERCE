@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Checkout</h2>
+    <form action="{{ url_for('checkout') }}" method="POST">
+        <label for="card_number">Card Number:</label>
+        <input type="text" name="card_number" required>
+
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" name="expiry_date" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" name="cvv" required>
+
+        <button type="submit">Submit Payment</button>
+    </form>
+    
+{% endblock %}

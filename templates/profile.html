@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Welcome, {{ session['name'] }}!</h2>
+    <p>Email: {{ session['email'] }}</p>
+    <p><a href="{{ url_for('logout') }}">Logout</a></p>
+{% endblock %}

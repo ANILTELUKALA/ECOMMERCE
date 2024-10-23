@@ -4,7 +4,7 @@ How to Run:
 pip install flask
 
 2.Save the above files in the respective directory structure.
-/ecommerce_app
+**/ecommerce_app
     /static
         /css
             - style.css
@@ -17,7 +17,7 @@ pip install flask
         - signup.html
         - products.html
         - checkout.html
-    - app.py
+    - app.py**
     
 3.Run the Flask app:
 
